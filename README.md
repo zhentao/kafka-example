@@ -6,16 +6,16 @@ An example to show how to use maven to manage Kafka dependencies. Reuse the [con
 
 start zookeeper:
 ----------------
-bin/zookeeper-server-start.sh config/zookeeper.properties
+	bin/zookeeper-server-start.sh config/zookeeper.properties
 
 start Kafka server:
 -------------------
-bin/kafka-server-start.sh config/server.properties
+	bin/kafka-server-start.sh config/server.properties
 
 Run Producer
 ------------
-mvn exec:java -Dexec.mainClass="com.zhentao.kafka.producer.ProducerExample"
+	mvn exec:java -Dexec.mainClass="com.zhentao.kafka.producer.ProducerExample"
 
 Run consumer:
 -------------
-mvn exec:java -Dexec.mainClass="com.zhentao.kafka.consumer.ConsumerGroupExample"
+	mvn exec:java -Dexec.mainClass="com.zhentao.kafka.consumer.ConsumerGroupExample"
