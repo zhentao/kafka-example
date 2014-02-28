@@ -1,4 +1,4 @@
-Copy the consumer and produser code from kafka.apache.com and use maven to manage the dependencies.
+An example to show how to use maven to manage Kafka dependencies. Reuse the consumer and produser code from kafka.apache.com.
 1. kafka 0.8 release
 2. scala 2.10
 
